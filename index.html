@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Zone API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+  <div class="timepage-data">
+    <h1>Time Zone API</h1>
+    <h1>Your Current Time Zone</h1>
+    <div class="data">
+            <p>Name Of Timezone: <span id="timezone"></span></p>
+            <p>Latitude: <span id="lat"></span></p>
+            <p>Longitude: <span id="lon"></span></p>
+            <p>Offset STD: <span id="std"></span></p>
+            <p>Offset STD Seconds: <span id="std-sec"></span></p>
+            <p>Offset DST: <span id="dst"></span></p>
+            <p>Offset DST Seconds: <span id="dst-sec"></span></p>
+            <p>Country: <span id="country"></span></p>
+            <p>Postcode: <span id="pst-code"></span></p>
+            <p>City: <span id="city"></span></p>
+          </div>
+    </div>   
+       <div class="search-address">
+          <h2>Enter Address</h2>
+            <input type="text" id="addressinput" placeholder="address">
+            <button id="btn">Search</button>
+            <div class="search-data" id="correctData">
+              <p>Name Of Timezone: <span id="timezone1"></span></p>
+              <p>Latitude: <span id="lat1"></span></p>
+              <p>Longitude: <span id="lon1"></span></p>
+              <p>Offset STD: <span id="std1"></span></p>
+              <p>Offset STD Seconds: <span id="std-sec1"></span></p>
+              <p>Offset DST: <span id="dst1"></span></p>
+              <p>Offset DST Seconds: <span id="dst-sec1"></span></p>
+              <p>Country: <span id="country1"></span></p>
+              <p>Postcode: <span id="pst-code1"></span></p>
+              <p>City: <span id="city1"></span></p>
+            </div>
+            <div id="errorMessage" >Time zone could not be found.</div>
+         
+
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

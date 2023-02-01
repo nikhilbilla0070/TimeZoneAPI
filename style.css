@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(37, 29, 29, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Intern", sans-serif;
+}
+
+.timepage-data {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  width: 650px;
+  padding: 20px;
+}
+.data{
+  border:1px solid black;
+  padding: 10px;
+}
+.search-address {
+  background-color: black;
+  color: white;
+  width: 650px;
+  padding: 20px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+#addressinput{
+  background-color: black;
+  height: 20px;
+  width: 600px;
+  color: white;
+  border: 2px solid white;
+}
+#btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.search-data {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+}
+#errorMessage {
+  display: none;
+  color: red;
+}
